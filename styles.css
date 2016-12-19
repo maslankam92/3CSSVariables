@@ -1,0 +1,41 @@
+:root {
+	--base: #FFB347;
+	--frame: 10px;
+	--blur: 5px;
+}
+
+html {
+	background-color: #193549;
+	font-family: 'Nova Square';
+	color: #fff;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 960px;
+	text-align: center;
+}
+
+h1.title {
+	font-size: 4em;
+}
+
+.toolbar ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.toolbar ul li {
+	font-size: 2em;
+	display: inline-block;
+}
+
+.highlight {
+	color: var(--base);
+}
+
+img {
+	padding: var(--frame);
+	background: var(--base);
+	filter: blur(var(--blur));
+}
